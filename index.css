@@ -101,7 +101,7 @@ html {
 
 .main-header {
     background-image: url("./img/yoga-bg-01.webp");
-    height: 105vh;
+    height: 150vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -745,9 +745,7 @@ textarea {
     padding-top: 5px;
     font-size: 1.875rem;
     margin-bottom: .625rem;
-    color: #12c2e9;
-    color: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
-    color: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    color: white;
     text-align: left;
 }
 
@@ -837,6 +835,7 @@ textarea {
     .contact-form-container {
         margin: 15px;
         margin-top: 550px;
+        gap: 5px;
     }
 
     .user-info-card>h5,
@@ -953,5 +952,9 @@ textarea {
 
     #contact {
         margin-bottom: 100px;
+    }
+
+    .user-img {
+        padding-left: 12%;
     }
 }

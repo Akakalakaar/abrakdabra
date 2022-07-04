@@ -160,6 +160,10 @@ html {
 
     }
 
+    .footer-content {
+        margin-top: .9375rem;
+    }
+
     .footer-upper {
         margin-left: .9375rem;
         flex-direction: column;
@@ -172,5 +176,10 @@ html {
     .footer-container {
         height: 480px;
         width: 100%;
+    }
+
+    .social-nav-list {
+        margin-left: -9%;
+        justify-content: center;
     }
 }
